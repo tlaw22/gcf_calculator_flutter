@@ -81,8 +81,8 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: Text('GCF Calculator'),
-          backgroundColor: Colors.black26,
-          foregroundColor: Colors.lightBlue[100],
+          backgroundColor: Colors.amber,
+          foregroundColor: Colors.blue[900],
         ),
         body: Padding(
           padding: EdgeInsets.all(16),
@@ -105,6 +105,12 @@ class _MyAppState extends State<MyApp> {
               // A elevated button widget to calculate the gcf
               ElevatedButton(
                 onPressed: () {
+                  AlertDialog(backgroundColor: Colors.deepPurple, title: Text('Greatest Common Factor'),
+                    content: Container(color: Colors.deepPurple),
+                    titlePadding: EdgeInsets.all(15.0),
+                    alignment: Alignment.center,
+                  );
+
                   // Get the input values from the controllers and convert them to integers
                   int num1 = int.parse(num1Controller.text);
                   int num2 = int.parse(num2Controller.text);
@@ -120,7 +126,7 @@ class _MyAppState extends State<MyApp> {
               // A text widget to display the result
               Text(
                 result,
-                style: TextStyle(fontSize: 20),
+                style: TextStyle(fontSize: 28),
               ),
             ],
           ),
