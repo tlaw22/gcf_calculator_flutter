@@ -13,9 +13,5 @@ a live demo is available at:
 - [Live Demo: GCF Calc] (http://www.pascoclass.net/apps/gcf/)
 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot 2023-05-09 153636](https://github.com/tlaw22/gcf_calculator_flutter/assets/108081811/09e38264-7997-4c28-8957-eb15bf034aaa)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
